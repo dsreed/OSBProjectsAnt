@@ -4,7 +4,7 @@
        <!-- <system  dir="C:/DevOps/JDeveloper_Backup/MyServiceBusApplication"/>-->
     </source>
 
-    <configjar jar="C:/DevOps/AntConfigJars/sbconfig.jar">
+    <configjar jar="/Export/sbconfig.jar">
          <projectLevel includeSystem="true"/>
     </configjar>
     
