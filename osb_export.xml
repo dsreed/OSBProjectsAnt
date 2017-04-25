@@ -1,10 +1,10 @@
 <configjarSettings xmlns="http://www.bea.com/alsb/tools/configjar/config">
     <source>
-        <project dir="C:/DevOps/JDeveloper_Backup/MyServiceBusApplication/MySBProject"/>
+        <project dir="./Source/MySBProject"/>
        <!-- <system  dir="C:/DevOps/JDeveloper_Backup/MyServiceBusApplication"/>-->
     </source>
 
-    <configjar jar="C:/DevOps/AntConfigJars/sbconfig.jar">
+    <configjar jar="./Export/sbconfig.jar">
          <projectLevel includeSystem="true"/>
     </configjar>
     
