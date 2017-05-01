@@ -30,6 +30,9 @@
 		<fileset dir="${weblogic.home}/modules">
          <include name="com.bea.core.xml.xmlbeans.jar"/>
         </fileset>
+		<fileset dir="${weblogic.home}/modules">
+         <include name=""/>
+        </fileset>
     </path>
 	
 	<taskdef name="configjar"
