@@ -27,13 +27,10 @@
 	    <fileset dir="${osb.home}/tools/configjar">
          <include name="configjar.jar"/>
         </fileset>
-		<fileset dir="${weblogic.home}/modules">
+	    <fileset dir="${weblogic.home}/modules">
          <include name="com.bea.core.xml.xmlbeans.jar"/>
         </fileset>
-		<fileset dir="${weblogic.home}">
-         <include name=""/>
-        </fileset>
-    </path>
+	</path>
 	
 	<taskdef name="configjar"
 	         classpathref="configjar.path" 
