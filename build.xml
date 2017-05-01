@@ -45,7 +45,7 @@
 
 
 
-   <target name="exportFromOSB">
+   <!--<target name="exportFromOSB">
         <wlst fileName="${domain.export.script}" debug="true" failOnError="false"  classpathref="library.osb" 
               arguments="${wls.username} ${wls.password} ${wls.server} ${export.project} ${export.jar} ${export.customFile}">  
          <script>  
@@ -82,7 +82,7 @@
            domainRuntime()
           </script>
         </wlst>
-   </target>
+   </target>-->
 
 
 
