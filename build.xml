@@ -30,7 +30,7 @@
 		<fileset dir="${weblogic.home}/modules">
          <include name="com.bea.core.xml.xmlbeans.jar"/>
         </fileset>
-		<fileset dir="${weblogic.home}/modules">
+		<fileset dir="${weblogic.home}/samples">
          <include name=""/>
         </fileset>
     </path>
